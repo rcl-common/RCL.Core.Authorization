@@ -5,11 +5,11 @@
 		<Version>7.0.0</Version>
 		<Authors>Anil Ripla</Authors>
 		<Company>Ray Consulting Limited</Company>
-		<Description>A library to generate JWT Tokens using the Client Credentials method to access resources using an Azure Active Directory application </Description>
+		<Description>A library to generate JWT Tokens to access RCL REST APIs</Description>
 		<RepositoryUrl>https://github.com/rcl-common/RCL.Core.Authorization</RepositoryUrl>
 		<PackageProjectUrl>https://github.com/rcl-common/RCL.Core.Authorization</PackageProjectUrl>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
-		<Title>RCL.Core.Authorization</Title>
+		<Title>RCL Core Authorization</Title>
 		<PackageIcon>icon.png</PackageIcon>
 	</PropertyGroup>
 
