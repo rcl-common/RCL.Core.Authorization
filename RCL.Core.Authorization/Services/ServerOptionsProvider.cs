@@ -16,7 +16,7 @@ namespace RCL.Core.Authorization
         {
             return Task.Run(() => new AuthServerOptions
             {
-                endpoint = $"https://login.microsoftonline.com/{_options.Value.tenantId}/oauth2/token",
+                endpoint = $"https://login.microsoftonline.com/{_options.Value.TenantId}/oauth2/token",
                 grant_type = "client_credentials",
                 resource = resource
             });

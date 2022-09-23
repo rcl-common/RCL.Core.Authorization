@@ -16,9 +16,9 @@ namespace RCL.Core.Authorization
         {
             return Task.Run(() => new AuthClientOptions
             {
-                client_id = _options.Value.client_id,
-                client_secret = _options.Value.client_secret,
-                tenantId = _options.Value.tenantId
+                client_id = _options.Value.ClientId,
+                client_secret = _options.Value.ClientSecret,
+                tenantId = _options.Value.TenantId
             });
         }
     }

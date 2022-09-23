@@ -2,8 +2,8 @@
 {
     public class AuthOptions
     {
-        public string client_id { get; set; }
-        public string client_secret { get; set; }
-        public string tenantId { get; set; }
+        public string ClientId { get; set; }
+        public string ClientSecret { get; set; }
+        public string TenantId { get; set; }
     }
 }

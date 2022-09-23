@@ -12,7 +12,7 @@ namespace RCL.Core.Authorization.Test
             IConfiguration Configuration = builder.Build();
 
             IServiceCollection services = new ServiceCollection();
-            services.AddRCLCoreAuthTokenService(options => Configuration.Bind("Auth",options));
+            services.AddRCLCoreAuthTokenServices(options => Configuration.Bind("Auth",options));
             
             return services.BuildServiceProvider();
         }

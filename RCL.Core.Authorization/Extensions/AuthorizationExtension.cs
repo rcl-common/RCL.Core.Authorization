@@ -5,7 +5,7 @@ namespace Microsoft.Extensions.DependencyInjection
 {
     public static class AuthorizationExtension
     {
-        public static IServiceCollection AddRCLCoreAuthTokenService(this IServiceCollection services, Action<AuthOptions> setupAction)
+        public static IServiceCollection AddRCLCoreAuthTokenServices(this IServiceCollection services, Action<AuthOptions> setupAction)
         {
             services.AddTransient<IAuthClientOptionsProvider, ClientOptionsProvider>();
             services.AddTransient<IAuthServerOptionsProvider, ServerOptionsProvider>();
